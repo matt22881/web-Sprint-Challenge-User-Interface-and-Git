@@ -183,9 +183,8 @@ p {
   text-decoration: none;
 }
 
-.top-image {
+.top-image img {
   width: 100%;
-  margin: 20px;
 }
 
 .top-content {
@@ -267,6 +266,42 @@ p {
 
 #box10 {
   background-color: dodgerblue;
+}
+.about-page {
+  width: 100%
+  display: flex;
+  margin-left: 20px;
+}
+.about-page .about-section {
+  padding: 20px;
+  border-bottom: dotted black 1px
+}
+.about-page .about-page-content {
+  margin: 10px;
+  width: 45%;
+  display: inline-block;
+  border-bottom: dotted 1px black;
+  }
+}
+.about-page .about-page-content h3 {
+  font-size: 125%;
+}
+.about-page .about-page-content img {
+  width: 100%;
+  margin: 20px 0 10px;
+}
+.about-page .about-page-content .more {
+    border: solid;
+    border-color: black;
+    border-radius: 10px;
+    height: 10%;
+    width: 50%;
+    padding: 5px;
+    text-align: center;
+    margin: 20px 0;
+}
+.about-page .together {
+  margin: 20px;
 }
 
 .bottom-content {
