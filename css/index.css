@@ -138,17 +138,11 @@ table {
   box-sizing: border-box;
 }
 
-html {
-  background-color: black;
-}
+html {}
 
 body {
-  height: 100%;
-  width: 100%;
-  padding: 50px;
+  margin: 2% 5% 0 5%;
   font-family: "Roboto", sans-serif;
-  margin: 150px 0px;
-  background-color: white;
 }
 
 h1,
@@ -173,9 +167,9 @@ p {
 .navbar {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  margin: 0 20px;
+  align-items: baseline;
   font-size: 75%;
+  margin-right: 5%;
 }
 
 .navbar a {
@@ -185,6 +179,7 @@ p {
 
 .top-image img {
   width: 100%;
+  margin: 20px 0;
 }
 
 .top-content {
@@ -270,11 +265,11 @@ p {
 .about-page {
   width: 100%
   display: flex;
-  margin-left: 20px;
+  padding-left: 20px;
 }
 .about-page .about-section {
-  padding: 20px;
-  border-bottom: dotted black 1px
+  border-bottom: dotted black 1px;
+  padding: 10px
 }
 .about-page .about-page-content {
   margin: 10px;
@@ -302,6 +297,7 @@ p {
 }
 .about-page .together {
   margin: 20px;
+  margin-bottom: 40px;
 }
 
 .bottom-content {
