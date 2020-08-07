@@ -294,6 +294,11 @@ p {
     padding: 5px;
     text-align: center;
     margin: 20px 0;
+
+}
+.about-page .about-page-content .more a {
+  color: black;
+  text-decoration: none;
 }
 .about-page .together {
   margin: 20px;
